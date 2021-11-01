@@ -1,5 +1,5 @@
 # marina
-Yet another SAT solver written in Ocaml, _marina_ being the Malagasy word for _True_.
+Yet another SAT solver in Ocaml, _marina_ being the Malagasy word for _True_.
 
 ## Practical example
 
@@ -14,13 +14,14 @@ The following assumptions were gathered across the Malagasy folklore:
 * Zazavavindrano who swim in warm sea have blue stripes
 
 ```
-$ ./marina '(~ swim_warm -> red)
+$ ./marina 'zazavavindrano -> 
+          ( (~ swim_warm -> red)
           & (blue | ~ red)
           & (live_corals -> ~ eat_shrimps)
           & (eat_shrimps <-> swim_warm)
           & (blue -> (swim_warm & live_corals))
-          & (swim_warm -> blue)'
-> (,false)
+          & (swim_warm -> blue) )'
+> (zazavavindrano,false)
 ```
 
 ## Syntax
