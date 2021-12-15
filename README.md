@@ -14,14 +14,14 @@ The following assumptions were gathered across the Malagasy folklore:
 * Zazavavindrano who swim in warm sea have blue stripes
 
 ```
-$ ./marina 'zazavavindrano -> 
+$ ./marina 'zazavavindrano & zazavavindrano -> 
           ( (~ swim_warm -> red)
           & (blue | ~ red)
           & (live_corals -> ~ eat_shrimps)
           & (eat_shrimps <-> swim_warm)
           & (blue -> (swim_warm & live_corals))
           & (swim_warm -> blue) )'
-> (zazavavindrano,false)
+> (,false)
 ```
 
 ## Syntax
