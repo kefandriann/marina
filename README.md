@@ -66,4 +66,4 @@ value of `c` has no effect on the satisfiability of the whole proposition.
 ## Acknowledgment
 
 Underlying decision procedure is based on IF-expression normalization:
-[https://www.lri.fr/~filliatr/ftp/tp-info/IFexpressions.pdf](https://usr.lmf.cnrs.fr/~jcf/ftp/tp-info/IFexpressions.pdf)
+https://usr.lmf.cnrs.fr/~jcf/ftp/tp-info/IFexpressions.pdf
